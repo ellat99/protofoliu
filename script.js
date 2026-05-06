@@ -12,7 +12,7 @@ const projects = [
     role: "Site agenție · Branding digital",
     description: "Identitate digitală îndrăzneață pentru o agenție creativă. Tipografie monumentală, animații fluide și un sistem de grilă editorial.",
     tags: ["Design","Motion","Frontend"],
-    image: "assets/factory.jpg",
+    image: "/factory.jpg",
     url: "https://thefactory.agency/"
   },
   {
