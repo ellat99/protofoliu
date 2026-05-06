@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofoliu — Web Developer & Designer</title>
+  <meta name="description" content="Portofoliu de web design și dezvoltare: Best Movers, The Factory Agency, Urban Caves." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <nav class="nav-inner">
+      <a href="#top" class="logo"><span class="dot">●</span> studio.dev</a>
+      <div class="nav-links">
+        <a href="#work">Lucrări</a>
+        <a href="#about">Despre</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="btn btn-primary btn-sm">Hai să vorbim</a>
+    </nav>
+  </header>
+
+  <section id="top" class="hero">
+    <div class="container">
+      <div class="eyebrow"><span class="line"></span> Portofoliu · 2025</div>
+      <h1 class="display">
+        Construiesc website-uri care
+        <span class="accent-italic"> conving</span> și convertesc.
+      </h1>
+      <p class="lead">
+        Web developer & designer. Lucrez la intersecția dintre estetică, cod curat și obiective de business —
+        de la branduri locale la agenții creative.
+      </p>
+      <div class="cta-row">
+        <a href="#work" class="btn btn-primary">Vezi proiectele →</a>
+        <a href="#about" class="link-muted">Mai multe despre mine</a>
+      </div>
+    </div>
+
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Web Design</span><span class="star">✦</span>
+        <span>Frontend Development</span><span class="star">✦</span>
+        <span>UI / UX</span><span class="star">✦</span>
+        <span>Branding Digital</span><span class="star">✦</span>
+        <span>SEO & Performance</span><span class="star">✦</span>
+        <span>Web Design</span><span class="star">✦</span>
+        <span>Frontend Development</span><span class="star">✦</span>
+        <span>UI / UX</span><span class="star">✦</span>
+        <span>Branding Digital</span><span class="star">✦</span>
+        <span>SEO & Performance</span><span class="star">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Lucrări selectate</div>
+          <h2 class="h2">Proiecte recente.</h2>
+        </div>
+        <p class="muted small">Trei proiecte care reflectă procesul meu — de la strategie la livrare în producție.</p>
+      </div>
+
+      <div class="projects" id="projects"></div>
+    </div>
+  </section>
+
+  <section id="about" class="section bordered">
+    <div class="container grid-12">
+      <div class="col-5">
+        <div class="eyebrow">Despre mine</div>
+        <h2 class="h2">Designer & developer cu o pasiune pentru detalii.</h2>
+      </div>
+      <div class="col-7">
+        <p class="muted lg">
+          Lucrez în web design și dezvoltare frontend de câțiva ani, ajutând brand-uri, agenții și antreprenori
+          să își transforme ideile în produse digitale solide. Îmi place să combin gândirea strategică cu execuția
+          vizuală — fiecare pixel, fiecare linie de cod contează.
+        </p>
+        <p class="muted lg">
+          Folosesc tehnologii moderne (React, Next.js, TypeScript, Webflow) și metodologii de design centrate pe
+          utilizator. Lansez proiecte de la zero, optimizez performanța și colaborez îndeaproape cu echipele de
+          marketing și produs.
+        </p>
+
+        <div class="stats">
+          <div><div class="k">3+</div><div class="v">Ani de experiență</div></div>
+          <div><div class="k">20+</div><div class="v">Proiecte livrate</div></div>
+          <div><div class="k">100%</div><div class="v">Mobile-first</div></div>
+          <div><div class="k">A+</div><div class="v">Performanță Lighthouse</div></div>
+        </div>
+
+        <div class="tech">
+          <div class="eyebrow light">Tehnologii</div>
+          <div class="chips" id="tech-chips"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section bordered center">
+    <div class="container">
+      <div class="eyebrow">Contact</div>
+      <h2 class="display sm">
+        Hai să construim<br>
+        <span class="accent-italic">ceva memorabil.</span>
+      </h2>
+      <p class="muted lg center-text">Disponibil pentru proiecte freelance și roluri full-time. Răspund în maxim 24 de ore.</p>
+      <div class="cta-row center">
+        <a href="mailto:hello@example.com" class="btn btn-primary lg">hello@example.com</a>
+        <a href="#" class="btn btn-ghost lg">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> · Portofoliu personal</div>
+    <div>Conceput și dezvoltat cu grijă.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
