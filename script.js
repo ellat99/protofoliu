@@ -4,7 +4,7 @@ const projects = [
     role: "Website corporate · UX & Development",
     description: "Platformă de prezentare pentru o companie de mutări din România. Focus pe conversii, formulare de cerere ofertă rapide și performanță mobile.",
     tags: ["Next.js","UI/UX","SEO"],
-    image: "assets/bestmovers.jpg",
+    image: "bestmovers.jpg",
     url: "https://bestmovers.ro/"
   },
   {
@@ -12,7 +12,7 @@ const projects = [
     role: "Site agenție · Branding digital",
     description: "Identitate digitală îndrăzneață pentru o agenție creativă. Tipografie monumentală, animații fluide și un sistem de grilă editorial.",
     tags: ["Design","Motion","Frontend"],
-    image: "/factory.jpg",
+    image: "factory.jpg",
     url: "https://thefactory.agency/"
   },
   {
