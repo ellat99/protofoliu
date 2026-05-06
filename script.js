@@ -20,7 +20,7 @@ const projects = [
     role: "Real estate · E-commerce experience",
     description: "Experiență premium pentru apartamente urbane boutique. Galerii imersive, story telling vizual și un proces de rezervare elegant.",
     tags: ["Webflow","3D","CMS"],
-    image: "assets/urbancaves.jpg",
+    image: "urbancaves.jpg",
     url: "https://www.urbancaves.ro/"
   }
 ];
