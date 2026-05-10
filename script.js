@@ -6,7 +6,7 @@ const projects = [
     description:
       "A website for a moving company in Romania. Focus on conversions, quick quote request forms, and mobile performance.",
     tags: ["Wordpress", "UI/UX", "PHP", "CSS"],
-    image: "assets/bestmovers.jpg",
+    image: "bestmovers.jpg",
     url: "https://bestmovers.ro/",
     sticker: "LIVE NOW",
   },
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A bold digital identity for a creative agency. Monumental typography, fluid animations, and an editorial grid system.",
     tags: ["Wordpress", "PHP", "CSS"],
-    image: "assets/seofactory.png",
+    image: "seofactory.png",
     url: "https://seo-factory.ro/",
     sticker: "AGENCY ✦",
   },
@@ -28,7 +28,7 @@ const projects = [
     description:
       "Premium e-commerce website for high-end furniture, finishes, and interior design items.",
     tags: ["Magento", "UI/UX", "Web Design"],
-    image: "assets/urbancaves.png",
+    image: "urbancaves.png",
     url: "https://www.urbancaves.ro/",
     sticker: "NEW ✿",
   },
